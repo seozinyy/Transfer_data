@@ -1,4 +1,4 @@
-#export_mongo36_data.py
+#TO_CSV.py
 
 import csv
 
@@ -18,6 +18,6 @@ if __name__ == "__main__":
   d["name"]="eunzy"
   d["age"]=28
 
-  savecsv(d)
+  savecsv([d])
 
 
