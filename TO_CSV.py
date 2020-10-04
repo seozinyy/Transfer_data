@@ -12,7 +12,7 @@ def savecsv(dict_data_list):
       w.writerow(dict_data.values())
 
 
-# 기능이 잘 되는지 테스트용도
+# 기능이 잘 되는지 테스트 용도
 if __name__ == "__main__":
   d ={}
   d["name"]="eunzy"
