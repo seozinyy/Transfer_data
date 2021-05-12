@@ -8,7 +8,7 @@ def insert_mongodb():
     collection = db.get_collection('test')
 
     dict_data = [{'name': 'hello everyone', 'age': 28},
-                 {'name': 'i am eunzy', 'age': 29},
+                 {'name': 'i am seojin', 'age': 29},
                  {'name': 'This test', 'age': 30},
                  {'name': 'i will hope', 'age': 31},
                  {'name': 'pass', 'age': 32},
