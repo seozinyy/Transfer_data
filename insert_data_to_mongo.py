@@ -10,9 +10,9 @@ def insert_mongodb():
     dict_data = [{'name': 'hello everyone', 'age': 28},
                  {'name': 'i am seojin', 'age': 29},
                  {'name': 'This test', 'age': 30},
-                 {'name': 'i will hope', 'age': 31},
-                 {'name': 'pass', 'age': 32},
-                 {'name': 'Goodluck..!', 'age': 33}]
+                 {'name': 'Today is good', 'age': 31},
+                 {'name': 'The early birds  is catches the worm', 'age': 32},
+                 {'name': 'Goodluck To You!', 'age': 33}]
 
     for i in dict_data:
         collection.insert_one(i)
