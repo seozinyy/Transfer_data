@@ -1,4 +1,5 @@
 # Transfer_data
+작업목적 : mongodb의 데이터를 csv 파일로 만든뒤 mysql에 적재 하는 파이프라인 구성.
 
 # README.md
 도커를 이용해서 시스템환경을 구축했습니다. 
